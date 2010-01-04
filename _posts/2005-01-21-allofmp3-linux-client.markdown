@@ -9,4 +9,4 @@ This script is for downloading songs you put in your download cart from [allofmp
 
 You will need to have curl compiled into php for this to work. I hope to later make one in python with a GTK interface with more options. If you are interested in this, let me know.
 
-[Download](/wp-content/uploads/posts/allofmp3-linux-client/all_of_mp3.phps)
+[Download](/assets/all_of_mp3.phps)

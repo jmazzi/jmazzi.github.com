@@ -2,7 +2,7 @@
 layout: post
 title: Half-Life 2 in game video recording
 ---
-Here is how I made the [physics bug video](/wp-content/uploads/posts/half-life_2_in_game_video_recording/physics_bug.zip) posted on [Steam Forums](http://steampowered.com/forums/):
+Here is how I made the [physics bug video](/assets/physics_bug.zip) posted on [Steam Forums](http://steampowered.com/forums/):
 
 To start recored a in game, you run the following command in the console (the ~ key brings up console):
 
@@ -17,7 +17,7 @@ You will have a bunch of files in:
 C:\Program Files\Valve\Steam\SteamApps\USERNAME\half-life 2\hl2
 </cite>
 
-They will be called nameofmovie###.tga as well as a .wav file. Where ### is a number. Take all those files and copy them into a new folder. You will then need to compile them into a movie. You can use this utility [tga2avi.zip](/wp-content/uploads/posts/half-life_2_in_game_video_recording/tga2avi.zip). You run it in a dos shell. To do this, goto Start->Run-> Type in cmd and hit \[ENTER\]. Cd to the directory you downloaded and extracted tga2avi to. 
+They will be called nameofmovie###.tga as well as a .wav file. Where ### is a number. Take all those files and copy them into a new folder. You will then need to compile them into a movie. You can use this utility [tga2avi.zip](/assets/tga2avi.zip). You run it in a dos shell. To do this, goto Start->Run-> Type in cmd and hit \[ENTER\]. Cd to the directory you downloaded and extracted tga2avi to. 
 
 `usage: tga2avi outfile framerate pattern start end step`
 `c:\ tga2avi nameofmovie.avi 20 nameofmovie000.tga nameofmovie100.tga 1`

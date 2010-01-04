@@ -19,19 +19,19 @@ Upgrade Instructions:
 Here are a few screenshots:
 
 Admin:
-[List Domains](/wp-content/uploads/dnscontrol/admindomains.png)
-[Add Domain](/wp-content/uploads/adminadddomain.png)
+[List Domains](/assets/dnscontrol/admindomains.png)
+[Add Domain](/assets/dnscontrol/adminadddomain.png)
 
 
 User:
-[Login](/wp-content/uploads/dnscontrol/userlogin.png)
-[Show Records](/wp-content/uploads/dnscontrol/userrecords.png)
-[List Record](/wp-content/uploads/dnscontrol/usereditrecord.png)
-[Add Record](/wp-content/uploads/dnscontrol/useraddrecord.png)
+[Login](/assets/dnscontrol/userlogin.png)
+[Show Records](/assets/dnscontrol/userrecords.png)
+[List Record](/assets/dnscontrol/usereditrecord.png)
+[Add Record](/assets/dnscontrol/useraddrecord.png)
 
 Download Below:
 
-[dnscontrol-1.0.2.tar.gz](/wp-content/uploads/dnscontrol/releases/dnscontrol-1.0.2.tar.gz)
+[dnscontrol-1.0.2.tar.gz](/assets/dnscontrol/releases/dnscontrol-1.0.2.tar.gz)
 
 Bug Tracker:
 
