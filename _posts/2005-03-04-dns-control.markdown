@@ -35,5 +35,5 @@ Download Below:
 
 Bug Tracker:
 
-[http://r00tshell.com/defects/index.php?tasks=all&project=1](http://r00tshell.com/defects/index.php?tasks=all&project=1)
+[http://r00tshell.com/defects/index.php?tasks=all&project=1](/defects/index.php?tasks=all&project=1)
 <!--break-->
