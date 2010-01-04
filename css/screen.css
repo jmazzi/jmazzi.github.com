@@ -192,6 +192,17 @@ ul.posts {
   margin-top: 2em;
 }
 
-  #related h2 {
-    margin-bottom: 1em;
-  }
+#related h2 {
+  margin-bottom: 1em;
+}
+
+blockquote {
+  border-top: 1px solid #000099;
+  border-bottom: 1px solid #000099;
+  border-left: 1px solid #000099;
+  border-right: 1px solid #000099;
+  margin-left: 1.5em;
+  padding-left: 5px;
+  background-color: #ccc;
+  font-family: Arial;
+}
