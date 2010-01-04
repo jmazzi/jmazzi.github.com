@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: New Look
+---
+Ive taken the time to actually somewhat customize the look of this site. Ive used one the animations from [Exploding Dog](http://explodingdog.com) (edited). I encourage you to go by and check out his animations.

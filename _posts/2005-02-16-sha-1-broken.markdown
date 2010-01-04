@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: SHA-1 Broken
+---
+[http://www.schneier.com/blog/archives/2005/02/sha1_broken.html](http://www.schneier.com/blog/archives/2005/02/sha1_broken.html)
+
+I wonder how this will affect bittorrent. Here is what the faq says:
+
+
+How do I know the download isn't corrupted?
+
+BitTorrent does cryptographic hashing (SHA1) of all data. When you see "Download succeeded!" you can be sure that BitTorrent has already verified the integrity of the data. The integrity and authenticity of a BitTorrent download is as good as the original request to the tracker. Checking the MD5/CRC32/other hash of a file downloaded via BitTorrent is redundant."
