@@ -3,4 +3,4 @@ auto:        true
 lsi:         true
 server_port: 4000
 pygments:    true
-permalink:   pretty
+permalink:   /archives/:year/:month/:day/:title
