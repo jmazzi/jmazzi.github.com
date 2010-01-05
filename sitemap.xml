@@ -5,13 +5,19 @@ layout: nil
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://r00tshell.com/</loc>
-    <lastmod>{{ now | date_to_xmlschema}}</lastmod>
+    <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://r00tshell.com/archive.html</loc>
-    <lastmod>{{ now | date_to_xmlschema}}</lastmod>
+    <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://r00tshell.com/dns-control/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
@@ -19,7 +25,7 @@ layout: nil
   <url>
     <loc>http://r00tshell.com{{ post.url }}</loc>
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.5</priority>
    </url>
    {% endfor %}
