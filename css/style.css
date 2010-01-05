@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/***** RESET *****/
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,fieldset,input { margin: 0; padding: 0; }
+h1,h2,h3,h4,h5,h6,p,a{ font-size: 12px; font-weight: normal; font-style: normal; }
+ul,ol {list-style: none; }
+fieldset,img {border: none; }
+caption,th {text-align: left; }
+table {border-collapse: collapse;}
+
+blockquote {
+  border-top: 1px solid #000099;
+  border-bottom: 1px solid #000099;
+  border-left: 1px solid #000099;
+  border-right: 1px solid #000099;
+  margin-left: 1.5em;
+  padding-left: 5px;
+  background-color: #ccc;
+  font-family: Arial;
+}
+
+
+
+/***** Type Default *****/
+h1, h2, h3,  h4, h5, h6{font-family: Georgia, "Times New Roman", Times, serif; margin-bottom:10px}
+h1{font-size:36px;}
+h2{font-size:10px; font-family:"Lucida Grande", Geneva, Arial, Verdana, sans-serif;}
+h3{margin-top:10px; font-size:22px; color:#545454}
+p{margin-bottom:10px 0; padding:0;}
+a{color:#4378ac}
+a:hover{color:#92261c; text-decoration:none}
+
+/***** Main Layout *****/
+body{background-color:#213449; font-family: "Lucida Grande", Geneva, Arial, Verdana, sans-serif; color:#545454}
+.main{width:782px; margin:0 auto; padding:0; background:url(/images/bg_main.gif) repeat-y;}
+.container{width:760px; margin:0 auto; padding:0; clear:both}
+.header-wrap{}
+.header{background:url(/images/bg_header.gif) repeat-x #ffffff; clear:both; padding:30px}
+.content{clear:both; background:url(/images/bg_rightcol.gif) repeat-y top right;}
+.featurerow{background:url(/images/bg_featurerow.gif) repeat-y; color:#ffffff; clear:both; padding:30px; }
+.leftcol{float:left; width:466px; padding:30px}
+.rightcol{float:right; width:174px; padding:30px}
+.footer{clear:both;}
+.footnotes{width:762px; margin:0 auto; padding:20px 10px; background:url(/images/bg_footnotes.gif) no-repeat top center; color:#cccccc}
+
+
+/***** Layout *****/
+.clear{height:1px; clear:both; font-size:1px}
+.navhead{display:block; list-style:none; padding:0 1px; margin:0; background:url(/images/bg_nav.gif) repeat-x; height:40px;}
+.navhead li{float:left;margin:1px 1px 1px 0; padding:0;}
+.navhead a{padding:12px 20px; margin:0; line-height:38px; color:#ffffff; text-decoration:none;}
+.navhead a:hover, .navhead a.active{background:url(/images/bg_nav_hover.gif) repeat-x 0 1px;}
+.navfoot {display:block; list-style:none; padding:0; margin:0; background:url(/images/bg_footnav.gif) repeat-x; height:34px}
+.navfoot li{display:inline; margin:1px 0; padding:0 20px; line-height:34px}
+.navfoot a{color:#ffffff; text-decoration:none;}
+.navfoot a:hover{text-decoration:underline}
+.first_entry{font-size:12px}
+.entry{margin-bottom:20px}
+h1.title{margin:0}
+h2.section1{color:#5b80a4}
+h2.section2{color:#999999}
+h2.section3{color:#888888}
+.first_entry h3 {padding-bottom:5px; background:url(/images/h3_bg1.gif) repeat-x bottom; font-size:24px}
+.first_entry h3 a{font-family: Georgia, "Times New Roman", Times, serif; color:#ffef96; text-decoration:none; font-size:24px}
+.first_entry h3 a:hover{color:#ffffff}
+.first_entry p {margin-top:10px; line-height:22px;}
+.first_entry a{color:#ffef96;}
+.first_entry a:hover{color:#ffffff;}
+.first_entry p.info{color:#5b80a4; font-size:10px; margin-top:10px}
+.entry h3{padding-bottom:5px; background:url(/images/h3_bg2.gif) repeat-x bottom; font-size:24px}
+.entry h3 a{font-family: Georgia, "Times New Roman", Times, serif; color:#92261c; text-decoration:none; font-size:24px;}
+.entry h3 a:hover{color:#4378ac}
+.entry p{margin-top:10px; font-size:12px; line-height:22px;}
+.entry p.info{color:#cccccc; font-size:10px; margin-top:10px}
+

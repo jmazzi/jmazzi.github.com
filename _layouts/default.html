@@ -1,55 +1,59 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="Justin Mazzi" />
-   <link href="http://r00tshell.com/atom.xml" rel="alternate" title="r00tshell.com" type="application/atom+xml" />
-
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
-
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-
-   <!-- Typekit -->
-   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>r00tshell.com</title>
+  <link rel="stylesheet" href="/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 </head>
+
 <body>
-
-<div class="site">
-  <div class="title">
-    <a href="/">r00tshell.com</a>
-    <a class="extra" href="/dns-control">DNS Control</a>
-  </div>
-  
-  {{ content }}
-  
-  <div class="footer">
-    <div class="contact">
-      <p>
-        Justin Mazzi<br />
-        Owner of <a href="http://r00tshell.com/">r00tshell</a><br />
-      </p>
-    </div>
-    <div class="contact">
-      <p>
-        <a href="http://github.com/jmazzi/">github.com/jmazzi</a><br />
-        <a href="http://twitter.com/jmazzi">twitter.com/jmazzi</a><br />
-      </p>
-    </div>
-    <div class="rss">
-      <a href="http://r00tshell.com/atom.xml">
-        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
-      </a>
-    </div>
-  </div>
-</div>
-
-<a href="http://github.com/jmazzi"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-
+  <div class="main">    
+    <div class="container">
+      <div class="header-wrap">
+        <div class="header">
+          <h1 class="title">r00tshell.com</h1>
+          <p><i>Putting r00t in your shell.</i></p>
+        </div>
+        <ul class="navhead">
+          {% include nav.html %}
+        </ul>
+      </div><!-- END HEADER-WRAP -->
+      <div class="content">
+        {% if page.title != 'DNS Control' %}
+          {% include featured.html %}
+        {% endif %}
+        <div class="leftcol">
+          {{ content }}
+        </div>
+        <div class="rightcol"><h2 class="section3">RESOURCES</h2>
+          <h3>About Me</h3>
+          <p>I&#8217;m just a demonstration of how easy it is to use Radiant to power a blog. <a href="">More&#8230;</a></p>
+          <h3>Favorite Sites</h3>
+          <ul>
+            <li><a href="">Radiant <span class="caps">CMS</span></a></li>
+            <li><a href="">Wiseheart Design</a></li>
+            <li><a href="">Redhanded</a></li>
+            <li><a href="">Ruby-Lang</a></li>
+          </ul>
+          <h3>Recent Entries</h3>
+          <p><a href="/articles/">Archives&#8230;</a></p>
+          <h3>Syndicate</h3>
+          <p><a href="">Articles <span class="caps">RSS</span> Feed</a></p>
+        </div>
+        <div class="clear"></div>
+      </div><!-- END CONTENT -->
+      <div class="footer">
+        <ul class="navfoot">
+          {% include nav.html %}
+        </ul>
+      </div><!-- END FOOTER -->
+    </div><!-- END CONTAINER -->
+  </div><!-- END MAIN -->
+  <div class="footnotes">
+    <p>Copyright &copy; 2007, Your Name Here. All rights reserved.<br />
+      This site is powered by <a href="http://radiantcms.org/">Radiant CMS</a>.</p>
+  </div><!-- END FOOTNOTES -->
+  {% include analytics.html %}
 </body>
 </html>
