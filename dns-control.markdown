@@ -37,7 +37,7 @@ Here are a few screenshots:
 
 **If you would like to see DNS Control’s development continue, please consider donating. It take’s a lot of time and effort to create software.**
 
-[dnscontrol-1.0.3.tar.gz](/assets/dnscontrol-1.0.3.tar.gz)
+[dnscontrol-1.0.3.tar.gz](/assets/dnscontrol/dnscontrol-1.0.3.tar.gz)
 
 [Bug Tracker](http://r00tshell.lighthouseapp.com/projects/10528-dns-control/overview)
 
