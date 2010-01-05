@@ -2,9 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>r00tshell.com</title>
+  <title>{{ page.title || r00tshell.com }}</title>
   <link rel="stylesheet" href="/css/style.css" type="text/css" />
   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://feeds.feedburner.com/r00tshell?format=atom" />
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/r00tshell?format=rss" />
 </head>
 
 <body>
@@ -28,18 +30,16 @@
         </div>
         <div class="rightcol"><h2 class="section3">RESOURCES</h2>
           <h3>About Me</h3>
-          <p>I&#8217;m just a demonstration of how easy it is to use Radiant to power a blog. <a href="">More&#8230;</a></p>
-          <h3>Favorite Sites</h3>
+          <p>Ruby and PHP developer. Chief of Engineering at Site5. Father and Husband. Food lover.</p>
+          <h3>Interesting Sites</h3>
           <ul>
-            <li><a href="">Radiant <span class="caps">CMS</span></a></li>
-            <li><a href="">Wiseheart Design</a></li>
-            <li><a href="">Redhanded</a></li>
-            <li><a href="">Ruby-Lang</a></li>
+            <li><a href="http://www.site5.com">Site5</a></li>
+            <li><a href="http://www.tomsepper.net/">tomsepper.net</a></li>
           </ul>
           <h3>Recent Entries</h3>
-          <p><a href="/articles/">Archives&#8230;</a></p>
+          <p><a href="/archive.html">Archive&#8230;</a></p>
           <h3>Syndicate</h3>
-          <p><a href="">Articles <span class="caps">RSS</span> Feed</a></p>
+          <p><a href="http://feeds.feedburner.com/r00tshell?format=rss"><span class="caps">RSS</span> Feed</a></p>
         </div>
         <div class="clear"></div>
       </div><!-- END CONTENT -->
@@ -51,8 +51,8 @@
     </div><!-- END CONTAINER -->
   </div><!-- END MAIN -->
   <div class="footnotes">
-    <p>Copyright &copy; 2007, Your Name Here. All rights reserved.<br />
-      This site is powered by <a href="http://radiantcms.org/">Radiant CMS</a>.</p>
+    <p>Copyright &copy; 2009, r00tshell.com. All rights reserved.<br />
+      This site is powered by <a href="http://github.com/mojombo/jekyll">Jekyll</a>.</p>
   </div><!-- END FOOTNOTES -->
   {% include analytics.html %}
 </body>

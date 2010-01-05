@@ -8,7 +8,7 @@ layout: nil
  <link href="http://r00tshell.com/atom.xml" rel="self"/>
  <link href="http://r00tshell.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tom.preston-werner.com/</id>
+ <id>http://r00tshell.com/</id>
  <author>
    <name>Justin Mazzi</name>
  </author>
