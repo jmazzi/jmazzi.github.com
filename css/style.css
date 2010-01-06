@@ -10,18 +10,15 @@ caption,th {text-align: left; }
 table {border-collapse: collapse;}
 
 blockquote {
-  border-top: 1px solid #000099;
-  border-bottom: 1px solid #000099;
-  border-left: 1px solid #000099;
-  border-right: 1px solid #000099;
-  margin-left: 1.5em;
+  border-top: 1px solid #213449;
+  border-bottom: 1px solid #213449;
+  border-left: 1px solid #213449;
+  border-right: 1px solid #213449;
+  margin-left: 1em;
   padding-left: 5px;
   background-color: #ccc;
   font-family: Arial;
 }
-
-
-
 /***** Type Default *****/
 h1, h2, h3,  h4, h5, h6{font-family: Georgia, "Times New Roman", Times, serif; margin-bottom:10px}
 h1{font-size:36px;}
