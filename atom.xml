@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>r00tshell.com - putting r00t in your shell</title>
- <link href="http://r00tshell.com/atom.xml" rel="self"/>
- <link href="http://r00tshell.com/"/>
+ <link href="http://www.r00tshell.com/atom.xml" rel="self"/>
+ <link href="http://www.r00tshell.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://r00tshell.com/</id>
+ <id>http://www.r00tshell.com/</id>
  <author>
    <name>Justin Mazzi</name>
  </author>
@@ -16,9 +16,9 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://r00tshell.com{{ post.url }}"/>
+   <link href="http://www.r00tshell.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://r00tshell.com{{ post.id }}</id>
+   <id>http://www.r00tshell.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

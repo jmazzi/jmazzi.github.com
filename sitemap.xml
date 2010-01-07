@@ -4,26 +4,26 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://r00tshell.com/</loc>
+    <loc>http://www.r00tshell.com/</loc>
     <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://r00tshell.com/archive.html</loc>
+    <loc>http://www.r00tshell.com/archive.html</loc>
     <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://r00tshell.com/dns-control/</loc>
+    <loc>http://www.r00tshell.com/dns-control/</loc>
     <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   {% for post in site.posts %}
   <url>
-    <loc>http://r00tshell.com{{ post.url }}</loc>
+    <loc>http://www.r00tshell.com{{ post.url }}</loc>
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

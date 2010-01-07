@@ -1,7 +1,7 @@
 <?php
 /*
 Author: Justin Mazzi <jmazzi __a_t__ gmail d0t com>
-Site: http://r00tshell.com
+Site: http://www.r00tshell.com
 */
 
 /* Make this your screen name */
