@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>r00tshell.com - putting r00t in your shell</title>
+ <link href="http://www.r00tshell.com/atom.xml" rel="self"/>
+ <link href="http://www.r00tshell.com/"/>
+ <updated>2010-01-08T15:30:47-08:00</updated>
+ <id>http://www.r00tshell.com/</id>
+ <author>
+   <name>Justin Mazzi</name>
+ </author>
+
+  
+ <entry>
+   <title>New RSS Feed Address</title>
+   <link href="http://www.r00tshell.com/"/>
+   <updated>2010-01-09T00:00:00-08:00</updated>
+   <id>http://www.r00tshell.com/</id>
+   <content type="html">Please update your feed reader. The new location is &lt;a href='http://feeds.feedburner.com/r00tshell'&gt;New Feed Address&lt;/a&gt;</content>
+ </entry>
+ 
+ 
+</feed>
